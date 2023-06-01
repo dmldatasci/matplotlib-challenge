@@ -20,7 +20,12 @@ Create a DataFrame of summary statistics to include:
 #### Create Bar Charts and Pie Charts
 1. Generate two bar charts. Both charts should be identical and show the total total number of rows (Mouse ID/Timepoints) for each drug regimen throughout the study.
     - Create the first bar chart with the Pandas `DataFrame.plot()` method.
+
+    ![Pandas `.plot()` Bar Chart](images/pandas_bar.png)
+
     - Create the second bar chart with Matplotlib's `pyplot` methods.
+
+    ![Matplotlib `pyplot` Bar Chart](images/matplotlib_bar.png)
 
 2. Generate two pie charts. Both charts should be identical and show the distribution of female versus male mice in the study.
     - Create the first pie chart with the Pandas `DataFrame.plot()` method.
