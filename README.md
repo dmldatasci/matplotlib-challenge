@@ -29,7 +29,12 @@ Create a DataFrame of summary statistics to include:
 
 2. Generate two pie charts. Both charts should be identical and show the distribution of female versus male mice in the study.
     - Create the first pie chart with the Pandas `DataFrame.plot()` method.
+
+    ![Pandas `.plot()` Pie Chart](images/pandas_pie.png)
+
     - Create the second pie chart with Matplotlib's `pyplot` methods.
+
+    ![Matplotlib `pyplot` Pie Chart](images/matplotlib_pie.png)
 
 #### Calculate Quartiles, Find Outliers, and Create a Box Plot
 1. Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculate the quartiles and IQR, and determine if there are any potential outliers across all four treatment regimens.
