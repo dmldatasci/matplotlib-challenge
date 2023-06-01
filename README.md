@@ -12,9 +12,8 @@ This analysis is an exploration of data provided by a theoretical pharmaceutical
 
 #### Generate Summary Statistics
 Create a DataFrame of summary statistics to include:
-
-    - A row for each drug regimen. These regimen names should be contained in the index column.
-    - A column for each of the following statistics: mean, median, variance, standard deviation, and SEM of the tumor volume.
+- A row for each drug regimen. These regimen names should be contained in the index column.
+- A column for each of the following statistics: mean, median, variance, standard deviation, and SEM of the tumor volume.
 
 ![Summary Statistics Table](images/summary_stats.png)
 
