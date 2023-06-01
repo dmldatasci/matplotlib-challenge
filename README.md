@@ -15,7 +15,7 @@ Create a DataFrame of summary statistics to include:
     - A row for each drug regimen. These regimen names should be contained in the index column.
     - A column for each of the following statistics: mean, median, variance, standard deviation, and SEM of the tumor volume.
 
-    ![Summary Statistics Table](images/summary_stats.png)
+![Summary Statistics Table](images/summary_stats.png)
 
 #### Create Bar Charts and Pie Charts
 1. Generate two bar charts. Both charts should be identical and show the total total number of rows (Mouse ID/Timepoints) for each drug regimen throughout the study.
