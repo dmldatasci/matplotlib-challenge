@@ -43,14 +43,26 @@ Create a DataFrame of summary statistics to include:
     - Loop through each drug in the treatment list, locating the rows in the merged DataFrame that correspond to each treatment. Append the resulting final tumor volumes for each drug to the empty list.
     - Determine outliers by using the upper and lower bounds, and then print the results.
 
+![IQR and Outliers](images/iqr_outliers.png)
+
 2. Using Matplotlib, generate a box plot that shows the distribution of the final tumor volume for all the mice in each treatment group. Highlight any potential outliers in the plot by changing their color and style.
+
+![Boxplot](images/boxplot.png)
 
 #### Create a Line Plot and a Scatter Plot
 1. Select a single mouse that was treated with Capomulin, and generate a line plot of tumor volume versus time point for that mouse.
 
+![Single-Mouse Response Line Graph](images/single-mouse_response.png)
+
 2. Generate a scatter plot of mouse weight versus average observed tumor volume for the entire Capomulin treatment regimen.
+
+![Average Response Line Graph](images/average_response.png)
 
 #### Calculate Correlation and Regression
 1. Calculate the correlation coefficient and linear regression model between mouse weight and average observed tumor volume for the entire Capomulin treatment regimen.
 
+![Correlation Output](images/correlation.png)
+
 2. Plot the linear regression model on top of the previous scatter plot.
+
+![Regression Plot](images/regression.png)
